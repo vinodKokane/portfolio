@@ -1,0 +1,38 @@
+@media (min-width:768px){
+    .container{
+        margin: 0 60px;
+    }
+    header .navigation .nav
+    {
+        display: block;
+        flex: 1;
+    }
+    header .navigation .theme .bars{
+        display: none;
+    }
+    .aboutUs .aboutUs-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    /* What we do inherit from min 576px */
+    /* offer will be Inherit min-width 576px */
+    
+    .Exterior .Exterior-grid{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /*...........Booking........................... */
+
+    .booking .booking-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*------Start of Client------  */
+    .client .client-feedback-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

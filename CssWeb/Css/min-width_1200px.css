@@ -1,0 +1,12 @@
+@media (min-width:1200px){
+    /* inherit from max-width 576px */
+    /* inherit from min-width 576px */
+    /* inherit from min-width 768px */
+    /* inherit from min-width 992px */
+    /* inherit from min-width 1200px */
+
+    .Exterior .Exterior-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+     }
+}

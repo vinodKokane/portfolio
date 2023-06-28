@@ -1,0 +1,36 @@
+@media (min-width:992px){
+    .container{
+        margin: 0 80px;
+    }
+    .what-We-Do .what-We-Do-flex {
+        flex-direction: row;
+    }
+
+    .what-We-Do .grid1 {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    /*----Start Offer----*/
+    .offer .offer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .offer .offer-grid .offer-img {
+        height:500px;
+        width: 100%;
+        background: url(Img/banner1.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: brightness(50%);
+    }
+
+    /* Start Of Exterior------------ */
+
+    .Exterior .Exterior-grid{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+    }
+    /* Booking Inherit from min-width: 768px */
+    /* Inherit from min-width 768px */
+    
+}
