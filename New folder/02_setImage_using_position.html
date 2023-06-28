@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set image on particular position.</title>
+    <link rel="icon" href="art-gallery-icon-13989.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to left,blue,aqua,green,violet,purple,red,yellow);
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .main{
+            height: 500px;
+            width: 500px;
+            border: 8px inset black;
+            margin: 50px auto;
+            padding: 30px;
+            background: linear-gradient(to left,blue,aqua);
+            position: relative;
+        }
+        .div1 {
+            width: 200px;
+            height: 200px;
+            background: url(Gif/happy-diwali-festival-of-lights.gif);
+            background-position: center;
+            background-size: cover;
+            border: 2px inset sienna;
+            position: absolute;
+            border-radius: 10px 30px;
+            box-shadow:3px 3px 5px black;
+        }
+
+        .div2 {
+            width: 200px;
+            height: 200px;
+            background: url(Gif/latest-best-wishes-for-birthday-gif-for-free-download.gif);
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            border: 3px inset gray;
+            border-radius: 10px 30px;
+            box-shadow:3px 3px 5px black;
+        }
+
+        .div3 {
+            width: 200px;
+            height: 200px;
+            background: url(Gif/2fbf66802f50c0da6d59732878686c4a.gif);
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            border: 5px inset gray;
+            border-radius: 20px 30px;
+            box-shadow:3px 3px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" align="center">
+        <div class="div1">
+        </div>
+        <div class="div2">
+        </div>
+        <div class="div3">
+        </div>
+    </div>
+    
+</body>
+
+</html>

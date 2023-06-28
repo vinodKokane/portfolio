@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(Car/Tryzens-Blog-Page-Banner.jpg);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .main {
+            max-width: 500px;
+            background-color: aliceblue;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px inset black;
+        }
+
+        .main .title {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            border: none;
+            padding: 10px;
+            border-bottom: 2px inset gray;
+        }
+
+        .main .form {
+            width: 100%;
+        }
+
+        .main .form .input_field {
+            display: flex;
+            padding: 2px;
+        }
+
+        .main .form .input_field label {
+            display: flex;
+            width: 200px;
+            color: black;
+            text-shadow: 1px 1px 2px gray;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .main .form .input_field .input {
+            padding-left: 5px;
+            height: 30px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 2px inset green;
+            background: transparent;
+            outline: none;
+        }
+
+        .main .form .input_field .r-btn {
+            padding: 5px;
+            margin-bottom: 10px;
+            height: 30px;
+        }
+
+        .main .form .input_field span {
+            padding: 5px 5px;
+            font-size: 14px;
+
+        }
+
+        .main .form .input_field #add {
+            width: 100%;
+        }
+
+        .main .form .input_field #drp {
+            width: 100%;
+            border: none;
+            border-bottom: 2px inset green;
+            background: transparent;
+        }
+        .main .form .input_field p{
+            color: black;
+            text-shadow: 1px 1px 2px gray;
+            font-size: 15px;
+            font-weight: 700;
+            margin: auto;
+        }
+        .main .form .input_field .btn{
+            margin: 10px auto;
+            width: 100%;
+            height: 35px;
+            font-size: 18px;
+            color: aliceblue;
+            text-shadow: 1px 2px 2px gray;
+            background:linear-gradient(to right,red,black);
+            border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            Registration
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="input_field">
+                    <label for="">First Name:</label>
+                    <input type="text" placeholder="Enter First name" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Middle Name:</label>
+                    <input type="text" placeholder="Enter Middle name" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Last Name:</label>
+                    <input type="text" placeholder="Enter Last name" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Address:</label>
+                    <textarea name="address" id="add" cols="20" rows="5"></textarea>
+                </div>
+                <div class="input_field">
+                    <label for="">Date of Birth:</label>
+                    <input type="date" name="" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Gender:</label>
+                    <span>Male</span><input type="radio" name="gender" id="gen">
+                    <span>Female</span><input type="radio" name="gender" id="gen">
+                </div>
+                <div class="input_field">
+                    <label for="">Experiance:</label>
+                    <select name="" id="drp">
+                        <option value="0">--Select--</option>
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                    </select>
+                </div>
+                <div class="input_field">
+                    <label for="">Mobile No:</label>
+                    <input type="text" placeholder="Enter Mobile No" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Email Id:</label>
+                    <input type="email" placeholder="Enter email" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="">Create Password:</label>
+                    <input type="password" placeholder="Enter Password" class="input">
+                </div>
+
+                <div class="input_field">
+                    <p>Show Password
+                        <input type="checkbox" class="check">
+                    </p>
+                </div>
+
+                <div class="input_field">
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

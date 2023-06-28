@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to left, blue, purple);
+            text-align: center;
+        }
+
+        .main h1 {
+            padding-top: 20px;
+            text-shadow: 3px 3px 3px gray;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 550px;
+            height: 400px;
+            margin: auto;
+        }
+
+        .left_col {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: white;
+        }
+
+        .left_col h1 {
+            text-shadow: 2px 2px 3px #1d8d58;
+            color: black;
+        }
+
+        .left_col h3 {
+            text-shadow: 2px 2px 3px gray;
+            color: #5f5f5f;
+        }
+
+        .right_col {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .text_field {
+            border: none;
+            border-top: 1px inset black;
+            box-shadow: 4px 4px 4px rgb(11, 11, 11);
+            padding: 2px;
+            color: black;
+            margin-top: 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .btn {
+            margin-top: 15px;
+            height: 35px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 12px;
+            color: white;
+            background: linear-gradient(blue, black);
+            font-weight: 800;
+            transition: 1s all ease-in-out;
+        }
+
+        .btn:hover {
+            width: 85%;
+        }
+
+        .bottom-text {
+            padding-top: 10px;
+            color: #5f5f5f;
+        }
+
+        .bottom-text2 {
+            padding-top: 10px;
+            color: #5f5f5f;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Login in Form</h1>
+        <div class="box">
+            <div class="left_col">
+                <form action="#" method="get">
+                    <h1>Log in</h1><br>
+                    <h3>To your Account</h3>
+                    <input type="text" placeholder="User Name" class="text_field"><br>
+                    <input type="password" placeholder="Password" class="text_field"><br>
+                    <button class="btn">Login</button>
+                </form>
+                <p class="bottom-text">Or Connect with social media</p><br>
+                <span class="bottom-text2">Don't have an account ?<a href="#">Register</a></span>
+            </div>
+            <div class="right_col">
+                <img src="Images/pexels-timur-kozmenko-3102818.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

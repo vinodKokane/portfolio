@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            border: 5px inset black;
+            overflow: hidden;
+            background: url(Images/land3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .div1 {
+            height: 70%;
+            max-width: 450px;
+            text-align: center;
+            border: none;
+            margin-left: auto;
+            margin-top: 100px;
+            margin-right: 50px;
+            background-color:rgba(3, 3, 3, 0.673);
+            border-radius: 5px;
+            box-shadow: 3px 3px 4px black;
+        }
+
+        .fa-heart {
+            color: blue;
+            padding: 5px;
+        }
+
+        h3 {
+            color: white;
+            text-align: left;
+            text-shadow: 3px 3px 4px blue;
+            font-weight: 800;
+        }
+
+        h1 {
+            text-shadow: 3px 3px 4px blue;
+            font-weight: 700;
+            padding-left: 10px;
+            color: #fff;
+        }
+        input{
+            width: 80%;
+            height: 40px;
+            margin: 15px ;
+            border: 2px inset black;
+            font-size: 18px;
+            border-radius: 25px;
+        }
+        .btn{
+            height: 40px;
+            width: 80%;
+            border-radius: 20px;
+            background: linear-gradient(to left, blue,black);
+            color: #fff;
+            font-size: 20px;
+            box-shadow: 3px 3px 4px black;
+            text-shadow: 3px 3px 4px black;
+        }
+        .btn:hover{
+            width: 95%;
+            transition: 1s;
+            background: linear-gradient(to left,cyan,black);
+            box-shadow: 4px 4px 4px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h3><i class="fa-sharp fa-solid fa-heart"></i>Landfarm</h3>
+        <h1>Request Call Back Courses</h1>
+        <input type="text" placeholder=" Your Name"><br>
+        <input type="email" placeholder=" Email"><br>
+        <input type="text" placeholder=" Phone"><br>
+        <input type="text" placeholder=" Subject"><br>
+        <button class="btn">Get It Now</button>
+    </div>
+</body>
+
+</html>
